@@ -1,6 +1,6 @@
 {
-  "VENUE_LATITUDE": "",
-  "VENUE_LONGITUDE": "",
+  "VENUE_LATITUDE": "10.3214784",
+  "VENUE_LONGITUDE": "123.9074328",
   "GOOGLE_MAPS_CONFIG": {
     "maptype": "roadmap",
     "size": "1024x200",
