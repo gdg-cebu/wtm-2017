@@ -22,21 +22,23 @@ app.use('/offline-google-analytics',  express.static(path.join(
 
 
 app.get('/', (req, res) => {
-  Promise.all([
-    read(__dirname, 'data', 'speakers.json'),
-    read(__dirname, 'data', 'sessions.json'),
-    read(__dirname, 'data', 'sponsors.json')
-  ]).then(data => {
-    const context = {
-      map: mapUrl(),
-      speakers: data[0].sort(_ => Math.random() - 0.5),
-      sessions: data[1],
-      sponsors: data[2],
-      secrets: config.get('SECRETS'),
-      analytics: req.hostname !== 'localhost'
-    };
-    res.render('pages/index.html', context);
-  });
+  res.redirect('https://docs.google.com/forms/d/e/1FAIpQLSdf3pzL4ZkBg61MCHTv9s8xcNbis-xG5Sw-99G2gKx1qvB27Q/viewform?c=0&w=1');
+
+  // Promise.all([
+  //   read(__dirname, 'data', 'speakers.json'),
+  //   read(__dirname, 'data', 'sessions.json'),
+  //   read(__dirname, 'data', 'sponsors.json')
+  // ]).then(data => {
+  //   const context = {
+  //     map: mapUrl(),
+  //     speakers: data[0].sort(_ => Math.random() - 0.5),
+  //     sessions: data[1],
+  //     sponsors: data[2],
+  //     secrets: config.get('SECRETS'),
+  //     analytics: req.hostname !== 'localhost'
+  //   };
+  //   res.render('pages/index.html', context);
+  // });
 });
 
 
