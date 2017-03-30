@@ -9,7 +9,9 @@
           <ul>
             {% for sponsor in group.sponsors %}
               <li class="sponsor">
-                <img class="sponsor-logo" src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+                <a href="{{ sponsor.link }}" rel="nofollow" target="_blank">
+                  <img class="sponsor-logo" src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+                </a>
               </li>
             {% endfor %}
           </ul>
