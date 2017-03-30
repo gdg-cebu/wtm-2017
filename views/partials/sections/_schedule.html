@@ -7,7 +7,15 @@
         <article class="session">
           <header class="session-speaker" data-speaker="{{ session.speaker.name }}">
             {% if session.speaker %}
-              <img class="session-speaker-avatar" src="{{ session.speaker.image }}" alt="{{ session.speaker.name }}">
+              {% if session.speaker.image %}
+                <img class="session-speaker-avatar" src="{{ session.speaker.image }}" alt="{{ session.speaker.name }}">
+              {% elseif session.speaker.images %}
+                <div class="session-speaker-avatar-wrapper">
+                  {% for image in session.speaker.images %}
+                    <img class="session-speaker-avatar" src="{{ image }}" alt="{{ session.speaker.name }}">
+                  {% endfor %}
+                </div>
+              {% endif %}
               <h1 class="session-speaker-name">{{ session.speaker.name }}</h1>
             {% endif %}
           </header>

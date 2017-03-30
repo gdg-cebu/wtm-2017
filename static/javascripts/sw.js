@@ -20,6 +20,10 @@ const pathsToCache = [
   '/static/images/speakers/rhez-albaracin.png',
   '/static/images/speakers/rochel-abrasaldo.png',
   '/static/images/speakers/sheryl-satorre.png',
+  '/static/images/speakers/frances-teves.png',
+  '/static/images/speakers/franchette-camoro.png',
+  '/static/images/speakers/jane-vestil.png',
+  '/static/images/speakers/nicole-padin.png',
   '/static/fonts/droid-sans/bold.ttf',
   '/static/fonts/droid-sans/regular.ttf',
   '/static/fonts/quicksand/bold.woff2'
