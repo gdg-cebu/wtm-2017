@@ -15,6 +15,11 @@ const pathsToCache = [
   '/offline-google-analytics/offline-google-analytics-import.js',
   '/static/images/logo.png',
   '/static/images/gdg-logo.png',
+  '/static/images/speakers/erika-legara.png',
+  '/static/images/speakers/loveme-felicilda.png',
+  '/static/images/speakers/rhez-albaracin.png',
+  '/static/images/speakers/rochel-abrasaldo.png',
+  '/static/images/speakers/sheryl-satorre.png',
   '/static/fonts/droid-sans/bold.ttf',
   '/static/fonts/droid-sans/regular.ttf',
   '/static/fonts/quicksand/bold.woff2'
