@@ -13,6 +13,7 @@ const pathsToCache = [
   '/static/javascripts/sw-register.min.js',
   '/offline-google-analytics/offline-google-analytics-import.js',
   '/static/images/logo.png',
+  '/static/images/logo-full.png',
   '/static/images/gdg-logo.png',
   '/static/images/speakers/erika-legara.png',
   '/static/images/speakers/loveme-felicilda.png',
@@ -23,7 +24,9 @@ const pathsToCache = [
   '/static/images/speakers/franchette-camoro.png',
   '/static/images/speakers/jane-vestil.png',
   '/static/images/speakers/nicole-padin.png',
+  '/static/images/sponsors/google.svg',
   '/static/images/sponsors/payoneer.png',
+  '/static/images/sponsors/symph.png',
   '/static/fonts/droid-sans/bold.ttf',
   '/static/fonts/droid-sans/regular.ttf',
   '/static/fonts/quicksand/bold.woff2'
