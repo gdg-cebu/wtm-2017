@@ -1,19 +1,15 @@
 [{
-  "name": "General Sponsor",
+  "name": "General sponsor",
   "sponsors": [{
     "name": "Google",
     "image": "/static/images/sponsors/google.svg",
     "link": "https://www.google.com.ua/intl/en/about/"
   }]
 }, {
-  "name": "Special thanks to",
+  "name": "Venue sponsor",
   "sponsors": [{
-    "name": "Payoneer",
-    "image": "/static/images/sponsors/payoneer.png",
-    "link": "https://www.payoneer.com/ph/"
-  }, {
-    "name": "Symph",
-    "image": "/static/images/sponsors/symph.png",
-    "link": "http://www.sym.ph/"
+    "name": "The Company Cebu",
+    "image": "/static/images/sponsors/the-company-cebu.png",
+    "link": "https://www.facebook.com/TheCompanyCebu/"
   }]
 }]
