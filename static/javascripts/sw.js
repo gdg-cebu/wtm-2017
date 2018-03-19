@@ -2,7 +2,7 @@ importScripts('/offline-google-analytics/offline-google-analytics-import.js');
 goog.offlineGoogleAnalytics.initialize();
 
 
-const cacheName = 'wtm17-v7';
+const cacheName = 'wtm18-v1';
 const pathsToCache = [
   '/',
   '/coc',
@@ -15,18 +15,14 @@ const pathsToCache = [
   '/static/images/logo.png',
   '/static/images/logo-full.png',
   '/static/images/gdg-logo.png',
-  '/static/images/speakers/erika-legara.png',
-  '/static/images/speakers/loveme-felicilda.png',
-  '/static/images/speakers/rhez-albaracin.png',
-  '/static/images/speakers/rochel-abrasaldo.png',
-  '/static/images/speakers/sheryl-satorre.png',
   '/static/images/speakers/frances-teves.png',
   '/static/images/speakers/franchette-camoro.png',
-  '/static/images/speakers/jane-vestil.png',
+  '/static/images/speakers/jecelyn-yeen.jpg',
+  '/static/images/speakers/justine-win-canete.jpg',
   '/static/images/speakers/nicole-padin.png',
+  '/static/images/speakers/sheryl-satorre.png',
   '/static/images/sponsors/google.svg',
-  '/static/images/sponsors/payoneer.png',
-  '/static/images/sponsors/symph.png',
+  '/static/images/sponsors/the-company-cebu.png',
   '/static/fonts/droid-sans/bold.ttf',
   '/static/fonts/droid-sans/regular.ttf',
   '/static/fonts/quicksand/bold.woff2'
