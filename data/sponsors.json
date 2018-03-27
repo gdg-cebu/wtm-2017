@@ -9,7 +9,14 @@
   "name": "Venue sponsor",
   "sponsors": [{
     "name": "The Company Cebu",
-    "image": "/static/images/sponsors/the-company-cebu.png",
-    "link": "https://www.facebook.com/TheCompanyCebu/"
+    "image": "/static/images/sponsors/the-company-cebu.jpg",
+    "link": "http://thecompanycebu.business.site/"
+  }]
+}, {
+  "name": "Special thanks to",
+  "sponsors": [{
+    "name": "Pocari Sweat",
+    "image": "/static/images/sponsors/pocari-sweat.jpg",
+    "link": "http://www.pocarisweat.com.ph/"
   }]
 }]
