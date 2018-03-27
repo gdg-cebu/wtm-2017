@@ -2,40 +2,39 @@
   "title": "Registration",
   "time": "8:15"
 }, {
-  "title": "Opening Keynote",
-  "summary": "Welcome and Introduction about Women Techmakers and Mobile Site Certification Study Jams",
+  "title": "Women in Technology: Building a New Horizon",
   "time": "9:15",
   "speaker": {
-    "name": "Frances Teves",
-    "image": "/static/images/speakers/frances-teves.png"
+    "name": "Frances Marie Teves",
+    "image": "/static/images/speakers/frances-teves.jpg"
   }
 }, {
-  "title": "Women in Development",
+  "title": "Women in Development: Freelance Work and Web Development",
   "time": "9:45",
   "speaker": {
-    "name": "Jecelyn Yeen",
-    "image": "/static/images/speakers/jecelyn-yeen.jpg"
+    "name": "Cleo Credo",
+    "image": "/static/images/speakers/cleo-credo.jpg"
   }
 }, {
-  "title": "Women in Technopreneurship / Academe",
+  "title": "Women in Design: Wireframing",
   "time": "10:30",
-  "speaker": {
-    "name": "Sheryl Satorre",
-    "image": "/static/images/speakers/sheryl-satorre.png"
-  }
-}, {
-  "title": "Women in Design",
-  "time": "11:15",
   "speaker": {
     "name": "Justine Win Cañete",
     "image": "/static/images/speakers/justine-win-canete.jpg"
   }
 }, {
-  "title": "Women in Community",
+  "title": "Women in Technopreneurship and Startups",
+  "time": "11:15",
+  "speaker": {
+    "name": "Fleire Castro",
+    "image": "/static/images/speakers/fleire-castro.jpg"
+  }
+}, {
+  "title": "Women in Community: WomenWill",
   "time": "11:45",
   "speaker": {
     "name": "Nicole Padin",
-    "image": "/static/images/speakers/nicole-padin.png"
+    "image": "/static/images/speakers/nicole-padin.jpg"
   }
 }, {
   "title": "Lunch Break",
@@ -45,7 +44,7 @@
   "time": "13:30",
   "speaker": {
     "name": "Franchette Camoro",
-    "image": "/static/images/speakers/franchette-camoro.png"
+    "image": "/static/images/speakers/franchette-camoro.jpg"
   }
 }, {
   "title": "Mobile Sites Certification Examination",

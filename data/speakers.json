@@ -1,31 +1,37 @@
 [{
-  "name": "Jecelyn Yeen",
-  "position": "TBD",
-  "company": "TBD",
+  "name": "Frances Marie Teves",
+  "position": "Software Engineer",
+  "company": "Kyocera",
   "bio": "TBD",
-  "image": "/static/images/speakers/jecelyn-yeen.jpg"
+  "image": "/static/images/speakers/frances-teves.jpg"
 }, {
-  "name": "Sheryl Satorre",
-  "position": "Teacher",
-  "company": "University of Cebu-Main",
-  "bio": "Sheryl works as a college teacher for more than 14 years. Currently, she is teaching Technopreneurship and Database System at the University of Cebu-Main. She has mentored more than 30 startup-based Capstone Projects of the same university. She serves as a faculty-mentor for various startup competitions and boot camps like, Philippine Startup Challenge, Smart SWEEP Excellence and Innovation Award, Startup Weekend, and Cebu Launchpad.<br><br>As a strong believer of startups as catalyst for change, Sheryl wrote her PhD dissertation entitled, \"Cebu City Technology Startup Ecosystem\", which assessed the vibrancy of the local startup key players and produced the Cebu City Startup Ecosystem Canvas.<br><br>On a lighter note, Sheryl is an OBTL practitioner. She is a tattoo collector, and an advocate of life's best things such as afternoon naps, brewed coffee, good books and hip-hop music.",
-  "image": "/static/images/speakers/sheryl-satorre.png"
+  "name": "Cleo Credo",
+  "position": "Backend Web Developer",
+  "company": "StarTechUp Inc",
+  "bio": "TBD",
+  "image": "/static/images/speakers/cleo-credo.jpg"
 }, {
   "name": "Justine Win Cañete",
-  "position": "TBD",
-  "company": "TBD",
+  "position": "Product Designer and Frontend Developer",
+  "company": "Symph",
   "bio": "TBD",
   "image": "/static/images/speakers/justine-win-canete.jpg"
 }, {
+  "name": "Fleire Castro",
+  "position": "Digital Marketing Consultant",
+  "company": "Third Team Media",
+  "bio": "TBD",
+  "image": "/static/images/speakers/fleire-castro.jpg"
+}, {
   "name": "Nicole Padin",
-  "position": "TBD",
+  "position": "Director of Business Operations",
   "company": "Symph",
   "bio": "TBD",
-  "image": "/static/images/speakers/nicole-padin.png"
+  "image": "/static/images/speakers/nicole-padin.jpg"
 }, {
   "name": "Franchette Camoro",
-  "position": "Fullstack Web Developer",
+  "position": "Fullstack Developer",
   "company": "Symph",
   "bio": "TBD",
-  "image": "/static/images/speakers/franchette-camoro.png"
+  "image": "/static/images/speakers/franchette-camoro.jpg"
 }]
