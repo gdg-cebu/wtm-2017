@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/coc', (req, res) => {
-  res.render('pages/coc.html', context);
+  res.render('pages/coc.html');
 });
 
 

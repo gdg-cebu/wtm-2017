@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon bin/www"
+    "start": "node bin/www",
+    "dev": "nodemon bin/www",
+    "build": "gulp build"
   },
   "author": "Google Developers Group (GDG) Cebu",
   "license": "MIT",
@@ -12,6 +14,9 @@
     "presets": [
       "es2015"
     ]
+  },
+  "engines": {
+    "node": "8.11.1"
   },
   "dependencies": {
     "consolidate": "^0.14.5",
