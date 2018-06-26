@@ -20,6 +20,13 @@ app.use('/sw.js', express.static(path.join(__dirname, 'static', 'javascripts', '
 app.use('/offline-google-analytics',  express.static(path.join(
   __dirname, 'node_modules', 'sw-offline-google-analytics', 'build')));
 
+app.use((req, res, next) => {
+  res.locals.secrets = {
+    GOOGLE_ANALYTICS_TRACKING_ID: config.analytics.GOOGLE_ANALYTICS_TRACKING_ID
+  };
+  res.locals.analytics = req.hostname !== 'localhost';
+  next();
+});
 
 app.get('/', (req, res) => {
   Promise.all([
@@ -31,9 +38,7 @@ app.get('/', (req, res) => {
       map: mapUrl(),
       speakers: data[0].sort(_ => Math.random() - 0.5),
       sessions: data[1],
-      sponsors: data[2],
-      secrets: config.get('SECRETS'),
-      analytics: req.hostname !== 'localhost'
+      sponsors: data[2]
     };
     res.render('pages/index.html', context);
   });
@@ -41,22 +46,18 @@ app.get('/', (req, res) => {
 
 
 app.get('/coc', (req, res) => {
-  const context = {
-    secrets: config.get('SECRETS'),
-    analytics: req.hostname !== 'localhost'
-  };
   res.render('pages/coc.html', context);
 });
 
 
 function mapUrl() {
   const baseUrl = 'https://maps.googleapis.com/maps/api/staticmap';
-  const latitude = config.get('VENUE_LATITUDE');
-  const longitude = config.get('VENUE_LONGITUDE');
-  const query = config.get('GOOGLE_MAPS_CONFIG');
+  const latitude = config.map.VENUE_LATITUDE;
+  const longitude = config.map.VENUE_LONGITUDE;
+  const query = config.map.GOOGLE_MAPS_CONFIG;
   query['markers'] = `color:red|${latitude},${longitude}`;
   query['center'] = `${latitude},${longitude}`;
-  query['key'] = config.get('SECRETS')['GOOGLE_MAPS_API_KEY'];
+  query['key'] = config.map.GOOGLE_MAPS_API_KEY;
 
   const querystring = Object.keys(query).reduce((qs, key) => {
     qs.push(`${key}=${encodeURIComponent(query[key])}`);
